@@ -20,7 +20,7 @@ const Navbar = ({ toggleDraw, setEditChannelBtn }) => {
   useEffect(() => {
     gapi.load("client:auth2", () => {
       gapi.client.init({
-        clientId: "803042416240-r53btbul3490ao2cj75smvmvglfbh18a.apps.googleusercontent.com",
+        clientId: "421986503942-kq0mv8q0d4i1a7to4l3ol1togaar531l.apps.googleusercontent.com",
         scope: "email"
       }).then(() => {
         const authInstance = gapi.auth2.getAuthInstance();
